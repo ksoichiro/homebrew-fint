@@ -10,3 +10,10 @@ A Homebrew formula for [ksoichiro/fint](https://github.com/ksoichiro/fint).
 $ brew tap ksoichiro/fint
 $ brew install fint
 ```
+
+## Upgrade
+
+```sh
+$ brew update
+$ brew upgrade fint
+```
