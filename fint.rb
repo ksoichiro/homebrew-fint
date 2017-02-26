@@ -4,12 +4,12 @@ class Fint < Formula
   homepage "https://github.com/ksoichiro/fint"
   version "0.5.2"
 
-  if Hardware.is_64_bit?
+  if Hardware::CPU.is_64_bit?
     url "https://github.com/ksoichiro/fint/releases/download/v0.5.2/fint-0.5.2-bin-darwin-amd64.zip"
-    sha1 "1159baa30dbb818e979395cb880eb5ef0a23bcd1"
+    sha256 "714a533f60016ab66b468a73f24a9a4eb4790a01acfa6f07d16435e50560ecce"
   else
     url "https://github.com/ksoichiro/fint/releases/download/v0.5.2/fint-0.5.2-bin-darwin-386.zip"
-    sha1 "05f6a4dab8a7d4de97ac751fbd3d82217173966a"
+    sha256 "7c79b6deb75789fdcba5c4fece616fc54efa5e4f49860627150dafe60e4e2f4d"
   end
 
   def install
